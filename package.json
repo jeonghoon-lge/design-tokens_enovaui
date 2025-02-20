@@ -1,0 +1,25 @@
+{
+  "name": "@enact/design-tokens",
+  "version": "0.0.1",
+  "description": "Design tokens for Enact",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enactjs/design-tokens.git"
+  },
+  "homepage": "https://enactjs.com",
+  "main": "index.js",
+  "scripts": {
+    "lint": "enact lint --strict"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "design",
+    "tokens"
+  ],
+  "eslintConfig": {
+    "extends": "enact-proxy/strict"
+  },
+  "devDependencies": {
+    "eslint-config-enact-proxy": "^1.0.8"
+  }
+}

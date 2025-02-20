@@ -1,2 +1,2 @@
-# design-token
-A repository for design token
+# @enact/design-tokens
+A design tokens repository for Enact
