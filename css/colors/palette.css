@@ -1,0 +1,118 @@
+/* colors/palette.css */
+
+
+/* ----------------------------------------
+Primitive Color Tokens
+------------------------------------------- */
+
+:root {
+	/* Gray Scale
+	--------------------------------------- */
+
+	--ref-palette-black: #000000;
+	--ref-palette-white: #ffffff;
+
+	/* Gray
+	--------------------------------------- */
+	--ref-palette-gray-5: #1a1a1a;
+	--ref-palette-gray-10: #262626;
+	--ref-palette-gray-15: #333333;
+	--ref-palette-gray-20: #3b3b3b;
+	--ref-palette-gray-25: #454545;
+	--ref-palette-gray-30: #4f4f4f;
+	--ref-palette-gray-35: #5c5c5c;
+	--ref-palette-gray-40: #696969;
+	--ref-palette-gray-45: #737373;
+	--ref-palette-gray-50: #7d7d7d;
+	--ref-palette-gray-55: #8a8a8a;
+	--ref-palette-gray-60: #969696;
+	--ref-palette-gray-65: #a6a6a6;
+	--ref-palette-gray-70: #b3b3b3;
+	--ref-palette-gray-75: #bfbfbf;
+	--ref-palette-gray-80: #cccccc;
+	--ref-palette-gray-85: #d9d9d9;
+	--ref-palette-gray-90: #e6e6e6;
+	--ref-palette-gray-95: #f2f2f2;
+	
+	/* Cool Gray
+	--------------------------------------- */
+
+	--ref-palette-cool-gray-5: #1b1c1f;
+	--ref-palette-cool-gray-10: #26282b;
+	--ref-palette-cool-gray-15: #393a40;
+	--ref-palette-cool-gray-20: #42444a;
+	--ref-palette-cool-gray-25: #4f5159;
+	--ref-palette-cool-gray-30: #5b5d66;
+	--ref-palette-cool-gray-35: #666973;
+	--ref-palette-cool-gray-40: #727580;
+	--ref-palette-cool-gray-45: #7b7e8a;
+	--ref-palette-cool-gray-50: #848894;
+	--ref-palette-cool-gray-55: #8d909e;
+	--ref-palette-cool-gray-60: #9b9fab;
+	--ref-palette-cool-gray-65: #a9adba;
+	--ref-palette-cool-gray-70: #b4b8c2;
+	--ref-palette-cool-gray-75: #c2c4cc;
+	--ref-palette-cool-gray-80: #cecfd6;
+	--ref-palette-cool-gray-85: #dadce3;
+	--ref-palette-cool-gray-90: #e8e9ed;
+	--ref-palette-cool-gray-95: #f2f3f5;
+
+	/* Warm Gray
+	--------------------------------------- */
+
+	--ref-palette-warm-gray-5: #1a1a1a;
+	--ref-palette-warm-gray-10: #262626;
+	--ref-palette-warm-gray-15: #333333;
+	--ref-palette-warm-gray-20: #3d3d3d;
+	--ref-palette-warm-gray-25: #4a4a49;
+	--ref-palette-warm-gray-30: #5c5b5a;
+	--ref-palette-warm-gray-35: #6b6a68;
+	--ref-palette-warm-gray-40: #7e7c77;
+	--ref-palette-warm-gray-45: #878580;
+	--ref-palette-warm-gray-50: #9492bd;
+	--ref-palette-warm-gray-55: #a19e99;
+	--ref-palette-warm-gray-60: #aba8a2;
+	--ref-palette-warm-gray-65: #bdbab5;
+	--ref-palette-warm-gray-70: #cbc8c2;
+	--ref-palette-warm-gray-75: #dbd7ce;
+	--ref-palette-warm-gray-80: #e6e1d6;
+	--ref-palette-warm-gray-85: #f0ebe2;
+	--ref-palette-warm-gray-90: #f6f3eb;
+	--ref-palette-warm-gray-95: #faf9f5;
+
+	/* Active Red
+	--------------------------------------- */
+	--ref-palette-active-red-10: #410002;
+	--ref-palette-active-red-20: #690005;
+	--ref-palette-active-red-30: #93000a;
+	--ref-palette-active-red-40: #c00011;
+	--ref-palette-active-red-50: #fd312e;
+	--ref-palette-active-red-60: #f75b59;
+	--ref-palette-active-red-70: #ff897d;
+	--ref-palette-active-red-80: #ffb4ab;
+	--ref-palette-active-red-90: #ffdad6;
+
+	/* Red
+	--------------------------------------- */
+	--ref-palette-red-10: #33160d;
+	--ref-palette-red-20: #662c1a;
+	--ref-palette-red-30: #994227;
+	--ref-palette-red-40: #cc5834;
+	--ref-palette-red-50: #ff6e42;
+	--ref-palette-red-60: #ff8b67;
+	--ref-palette-red-70: #ffa88d;
+	--ref-palette-red-80: #ffc5b3;
+	--ref-palette-red-90: #ffe2d9;
+
+	/* Green
+	--------------------------------------- */
+	--ref-palette-green-10: #0c261d;
+	--ref-palette-green-20: #184c3b;
+	--ref-palette-green-30: #247258;
+	--ref-palette-green-40: #309876;
+	--ref-palette-green-50: #3dbf94;
+	--ref-palette-green-60: #63cba9;
+	--ref-palette-green-70: #8ad8be;
+	--ref-palette-green-80: #b1e5d4;
+	--ref-palette-green-90: #8dffa6;
+}
