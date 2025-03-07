@@ -104,6 +104,18 @@ Primitive Color Tokens
 	--ref-palette-red-80: #ffc5b3;
 	--ref-palette-red-90: #ffe2d9;
 
+	/* Orange
+	--------------------------------------- */
+	--ref-palette-orange-10: #33160d;
+	--ref-palette-orange-20: #662c1a;
+	--ref-palette-orange-30: #994227;
+	--ref-palette-orange-40: #cc5834;
+	--ref-palette-orange-50: #ff6e42;
+	--ref-palette-orange-60: #ff8b67;
+	--ref-palette-orange-70: #ffa88d;
+	--ref-palette-orange-80: #ffc5b3;
+	--ref-palette-orange-90: #ffe2d9;
+
 	/* Green
 	--------------------------------------- */
 	--ref-palette-green-10: #0c261d;
