@@ -48,6 +48,7 @@ Brand Color Tokens
 	--ref-color-base-0-a0: #00000000; /*color(from var(--ref-palette-black) srgb r g b / 0);*/
 	--ref-color-base-0-a25: #00000040; /*color(from var(--ref-palette-black) srgb r g b / 0.25);*/
 	--ref-color-base-0-a35: #00000059; /*color(from var(--ref-palette-black) srgb r g b / 0.35);*/
+	--ref-color-base-0-a50: #00000080; /*color(from var(--ref-palette-black) srgb r g b / 0.5);*/
 	--ref-color-base-0-a70: #000000b3; /*color(from var(--ref-palette-black) srgb r g b / 0.7) */
 	--ref-color-base-5: var(--ref-palette-gray-5);
 	--ref-color-base-5-a30: #1a1a1a4d; /*color(from var(--ref-palette-gray-5) srgb r g b / 0.3);*/
@@ -75,6 +76,7 @@ Brand Color Tokens
 	--ref-color-base-100: var(--ref-palette-white);
 	--ref-color-base-100-a4: #ffffff0a; /*color(from var(--ref-palette-white) srgb r g b / 0.04);*/
 	--ref-color-base-100-a10: #ffffff1a; /*color(from var(--ref-palette-white) srgb r g b / 0.1);*/
+	--ref-color-base-100-a20: #ffffff33; /*color(from var(--ref-palette-white) srgb r g b / 0.2);*/
 	--ref-color-base-100-a30: #ffffff4d; /*color(from var(--ref-palette-white) srgb r g b / 0.3);*/
 	--ref-color-base-100-a70: #ffffffb3; /*color(from var(--ref-palette-white) srgb r g b / 0.7);*/
 	--ref-color-base-100-a75: #ffffffbf; /*color(from var(--ref-palette-white) srgb r g b / 0.75);*/
