@@ -1,0 +1,12 @@
+{
+  "name": "@enact/webos-tokens",
+  "version": "0.0.1",
+  "description": "Theme design tokens for webOS",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "keywords": [
+    "design",
+    "tokens",
+    "webOS"
+  ]
+}

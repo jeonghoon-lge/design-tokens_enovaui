@@ -1,0 +1,77 @@
+{
+    "alias": {
+        "color": {
+            "surface": {
+                "full": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-0"},
+                "overlay": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-15"},
+                "popup": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-90"}
+            },
+            "accent": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/primary-50"},
+            "accent-green": {"$ref": "core-tokens/json/color-palette.json#/ref/palette/green-50"},
+            "accent-sub": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/primary-70"},
+            "invalid": {"$ref": "core-tokens/json/color-palette.json#/ref/palette/orange-50"},
+            "shadow": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-0-a35"},
+            "container": {
+                "group": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100-a10"},
+                "group-on-image": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-0-a50"},
+                "normal": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-30"},
+                "normal-alpha": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-30-a50"},
+                "focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100"},
+                "selected": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-10"},
+                "selected-alpha10": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100-a10"},
+                "selected-alpha20": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100-a20"},
+                "disabled-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-70"}
+            },
+            "on": {
+                "surface-main": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100"},
+                "container-main": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100"},
+                "popup-main": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-10"},
+                "focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-10"},
+                "selected": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100"},
+                "surface-sub": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100-a70"},
+                "container-sub": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100-a70"},
+                "popup-sub": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-0-a70"},
+                "sub-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-0-a70"},
+                "sub-selected": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-50"},
+                "index": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-70"},
+                "keyguide": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-50"},
+                "border-full": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100"},
+                "border-overlay": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-30"},
+                "border-selected": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-40"}
+            },
+            "indicator": {
+                "icon-inactive": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-60"},
+                "icon-inactive-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/secondary-60"},
+                "icon-active": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-100"},
+                "icon-active-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-10"}
+            },
+            "progress": {
+                "bar": {"$ref": "webos-tokens/json/alias.json#/alias/color/accent"},
+                "bg": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-40-a70"},
+                "buffer": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-60"}
+            },
+            "selection": {
+                "icon-selected": {"$ref": "webos-tokens/json/alias.json#/alias/color/on/selected"},
+                "icon-selected-disabled": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-30"},
+                "icon-selected-disabled-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-65"},
+                "border": {"$ref": "webos-tokens/json/alias.json#/alias/color/on/surface-main"},
+                "border-focused": {"$ref": "webos-tokens/json/alias.json#/alias/color/on/focused"},
+                "border-disabled": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-30"},
+                "border-disabled-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-65"},
+                "border-indeterminate": {"$ref": "webos-tokens/json/alias.json#/alias/color/on/surface-main"},
+                "border-indeterminate-focused": {"$ref": "webos-tokens/json/alias.json#/alias/color/on/focused"},
+                "border-indeterminate-disabled": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-30"},
+                "border-indeterminate-disabled-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-65"},
+                "bg-active": {"$ref": "webos-tokens/json/alias.json#/alias/color/accent"},
+                "bg-active-disabled": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-20"},
+                "bg-active-disabled-focused": {"$ref": "webos-tokens/json/color-brand.json#/ref/color/base-60"}
+            }
+        },
+        "radius": {
+            "button": {"$ref": "webos-tokens/json/border-radius.json#/ref/border-radius-24"},
+            "container": {"$ref": "webos-tokens/json/border-radius.json#/ref/border-radius-36"},
+            "overlay": {"$ref": "webos-tokens/json/border-radius.json#/ref/border-radius-60"},
+            "popup": {"$ref": "webos-tokens/json/border-radius.json#/ref/border-radius-60"}
+        }
+    }
+}

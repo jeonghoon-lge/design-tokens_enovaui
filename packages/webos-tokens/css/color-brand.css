@@ -1,5 +1,5 @@
-/* colors/brand.css */
-@import "./palette.css";
+/* color-brand.css */
+@import "../../core-tokens/css/color-palette.css";
 
 /* ----------------------------------------
 Brand Color Tokens

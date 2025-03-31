@@ -1,0 +1,12 @@
+{
+  "name": "@enact/core-tokens",
+  "version": "0.0.1",
+  "description": "Core design tokens",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "keywords": [
+    "design",
+    "tokens",
+    "core"
+  ]
+}

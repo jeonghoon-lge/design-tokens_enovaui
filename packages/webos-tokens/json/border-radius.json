@@ -1,0 +1,12 @@
+{
+    "ref": {
+        "border-radius-0": "0",
+        "border-radius-6": "6px",
+        "border-radius-12": "12px",
+        "border-radius-24": "24px",
+        "border-radius-36": "36px",
+        "border-radius-48": "48px",
+        "border-radius-60": "60px",
+        "border-radius-full": "999px"
+    }
+}
