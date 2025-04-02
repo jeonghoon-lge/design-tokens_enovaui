@@ -1,9 +1,9 @@
 # @enact/design-tokens
-A design tokens repository for Enact
+A centralized repository of design tokens for LGE.
 
-## Getting Started
+## Overview
 
-Thank you for visiting the Enact Design Tokens repository! This repository serves as a centralized collection of design tokens for the Enact project.
+This repository contains design tokens that define visual attributes for LGE applications. Design tokens help maintain consistency and enable theming across the ecosystem.
 
 ### What are Design Tokens?
 
@@ -11,7 +11,7 @@ Design tokens are essential building blocks that define the visual attributes of
 
 ### How to Use
 
-To incorporate these design tokens into your Enact project, follow these simple steps:
+To incorporate these design tokens into your project, follow these simple steps:
 
 1. Import the desired token values from this repository.
 2. Apply the imported tokens to your components and styles.

@@ -1,7 +1,8 @@
 {
   "name": "@enact/design-tokens",
   "version": "0.0.1",
-  "description": "Design tokens",
+  "description": "Monorepo for Design Tokens for LGE",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/enactjs/design-tokens.git"
