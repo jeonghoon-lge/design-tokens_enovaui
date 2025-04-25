@@ -1,0 +1,39 @@
+/* spacing-primitive.css */
+
+/* ----------------------------------------
+Primitive Spacing Tokens
+------------------------------------------- */
+
+:root {
+	--primitive-spacing-2: 2px;
+	--primitive-spacing-4: 4px;
+	--primitive-spacing-6: 6px;
+	--primitive-spacing-8: 8px;
+	--primitive-spacing-10: 10px;
+	--primitive-spacing-12: 12px;
+	--primitive-spacing-16: 16px;
+	--primitive-spacing-18: 18px;
+	--primitive-spacing-20: 20px;
+	--primitive-spacing-24: 24px;
+	--primitive-spacing-28: 28px;
+	--primitive-spacing-30: 30px;
+	--primitive-spacing-32: 32px;
+	--primitive-spacing-36: 36px;
+	--primitive-spacing-40: 40px;
+	--primitive-spacing-42: 42px;
+	--primitive-spacing-44: 44px;
+	--primitive-spacing-48: 48px;
+	--primitive-spacing-54: 54px;
+	--primitive-spacing-60: 60px;
+	--primitive-spacing-72: 72px;
+	--primitive-spacing-80: 80px;
+	--primitive-spacing-84: 84px;
+	--primitive-spacing-90: 90px;
+	--primitive-spacing-96: 96px;
+	--primitive-spacing-102: 102px;
+	--primitive-spacing-108: 108px;
+	--primitive-spacing-120: 120px;
+	--primitive-spacing-132: 132px;
+	--primitive-spacing-144: 144px;
+	--primitive-spacing-156: 156px;
+}
