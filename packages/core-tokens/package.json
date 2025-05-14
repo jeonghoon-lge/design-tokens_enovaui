@@ -1,5 +1,5 @@
 {
-  "name": "@enact/core-tokens",
+  "name": "@enovaui/core-tokens",
   "version": "0.0.1",
   "description": "Core design tokens",
   "main": "index.js",
