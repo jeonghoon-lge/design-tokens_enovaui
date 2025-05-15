@@ -1,4 +1,4 @@
-# @enact/design-tokens
+# @enovaui/design-tokens
 A centralized repository of design tokens for LGE.
 
 ## Overview

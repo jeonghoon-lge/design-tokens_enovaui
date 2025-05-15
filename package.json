@@ -1,11 +1,11 @@
 {
-  "name": "@enact/design-tokens",
+  "name": "@enovaui/design-tokens",
   "version": "0.0.1",
   "description": "Monorepo for Design Tokens for LGE",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/enactjs/design-tokens.git"
+    "url": "https://github.com/enovaui/design-tokens.git"
   },
   "main": "index.js",
   "license": "Apache-2.0",

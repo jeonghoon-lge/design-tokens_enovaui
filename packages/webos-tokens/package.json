@@ -1,5 +1,5 @@
 {
-  "name": "@enact/webos-tokens",
+  "name": "@enovaui/webos-tokens",
   "version": "0.0.1",
   "description": "Theme design tokens for webOS",
   "main": "index.js",
