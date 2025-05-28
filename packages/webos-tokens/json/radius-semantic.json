@@ -1,4 +1,6 @@
 {
+    "SPDX-FileCopyrightText": "Copyright 2025 LG Electronics Inc.",
+    "SPDX-License-Identifier": "LicenseRef-LGE-Proprietary",
     "semantic": {
         "radius": {
             "full": {"$ref": "core-tokens/json/radius-primitive.json#/primitive/radius/999"},
