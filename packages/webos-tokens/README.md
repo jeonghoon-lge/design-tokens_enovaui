@@ -9,6 +9,20 @@ This package contains design tokens that define visual attributes for webOS appl
 
 Semantic tokens are design tokens that define the intended meaning or purpose of a design element, rather than its raw value. By abstracting the design intent, semantic tokens enable consistent styling across different components.
 
+## Installation
+
+To install the package, use your preferred package manager:
+
+```bash
+npm install @enovaui/webos-tokens
+```
+
+or
+
+```bash
+yarn add @enovaui/webos-tokens
+```
+
 ### How to Use
 
 To incorporate these design tokens into your project, follow these simple steps:
@@ -16,14 +30,13 @@ To incorporate these design tokens into your project, follow these simple steps:
 1. Import the desired token values from this repository.
 2. Apply the imported tokens to your components and styles.
 
-Feel free to explore the different token categories and values available in this repository. If you have any questions or suggestions, we encourage you to open an issue or submit a pull request.
 
 ## Copyright and License Information
 
 Unless otherwise specified, all content, including all source code files and
 documentation files in this repository are:
 
-Copyright (c) 2012-2025 LG Electronics
+Copyright (c) 2025 LG Electronics
 
 Unless otherwise specified or set forth in the NOTICE file, all content,
 including all source code files and documentation files in this repository are:

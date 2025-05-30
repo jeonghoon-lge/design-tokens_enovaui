@@ -8,6 +8,20 @@ This package provides the foundational design tokens used across the `enovaui` e
 
 Primitive tokens are the raw values that defines visual attributes such as colors, typography, spacing, and more. They serve as the foundational building blocks of a design system and can be referenced by other tokens to ensure consistency and scalability.
 
+## Installation
+
+To install the package, use your preferred package manager:
+
+```bash
+npm install @enovaui/core-tokens
+```
+
+or
+
+```bash
+yarn add @enovaui/core-tokens
+```
+
 ### How to Use
 
 To incorporate these design tokens into your project, follow these simple steps:
@@ -22,7 +36,7 @@ Feel free to explore the different token categories and values available in this
 Unless otherwise specified, all content, including all source code files and
 documentation files in this repository are:
 
-Copyright (c) 2012-2025 LG Electronics
+Copyright (c) 2025 LG Electronics
 
 Unless otherwise specified or set forth in the NOTICE file, all content,
 including all source code files and documentation files in this repository are:
