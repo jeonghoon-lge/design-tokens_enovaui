@@ -18,16 +18,16 @@ Semantic Color Tokens
 	--semantic-color-background-popup-default: var(--primitive-color-neutral-gray-90);
 
 	/* onBackground */
-	--semantic-color-on-background-black: var(--primitive-color-black);
-	--semantic-color-on-background-white: var(--primitive-color-white);
 	--semantic-color-on-background-main: var(--primitive-color-white);
 	--semantic-color-on-background-sub: var(--primitive-color-neutral-gray-70);
-	--semantic-color-on-background-heading: var(--primitive-color-neutral-gray-60);
+	--semantic-color-on-background-accent: var(--primitive-color-active-red-55);
 	--semantic-color-on-background-highlight-yellow: var(--primitive-color-yellow-80);
 	--semantic-color-on-background-highlight-green: var(--primitive-color-mint-green-50);
-	--semantic-color-on-background-actionguide: var(--primitive-color-neutral-gray-50);
-	--semantic-color-on-background-accent: var(--primitive-color-active-red-55);
+	--semantic-color-on-background-heading: var(--primitive-color-neutral-gray-60);
+	--semantic-color-on-background-white: var(--primitive-color-white);
+	--semantic-color-on-background-black: var(--primitive-color-black);
 	--semantic-color-on-background-error: var(--primitive-color-deep-orange-50);
+	--semantic-color-on-background-actionguide: var(--primitive-color-neutral-gray-50);
 
 	--semantic-color-on-background-popup-main: var(--primitive-color-neutral-gray-10);
 	--semantic-color-on-background-popup-sub: var(--primitive-color-neutral-gray-35);
@@ -42,8 +42,8 @@ Semantic Color Tokens
 	--semantic-color-surface-default-focused: var(--primitive-color-white);
 	--semantic-color-surface-default-selected: var(--primitive-color-cool-gray-10);
 	--semantic-color-surface-default-disabled-focused: var(--primitive-color-neutral-gray-70);
-	--semantic-color-surface-input: var(--primitive-color-neutral-gray-30);
-	--semantic-color-surface-input-success: var(--primitive-color-neutral-gray-40);
+	--semantic-color-surface-input-field: var(--primitive-color-neutral-gray-30);
+	--semantic-color-surface-input-field-success: var(--primitive-color-neutral-gray-40);
 	--semantic-color-surface-indicator: var(--primitive-color-white);
 	--semantic-color-surface-accent: var(--primitive-color-active-red-55);
 	--semantic-color-surface-sub-notification: var(--primitive-color-mint-green-50);
@@ -61,33 +61,33 @@ Semantic Color Tokens
 	--semantic-color-surface-popup-default: var(--primitive-color-cool-gray-55);
 	--semantic-color-surface-popup-default-selected: var(--primitive-color-cool-gray-40);
 	--semantic-color-surface-popup-default-disabled-focused: var(--primitive-color-cool-gray-80);
-	--semantic-color-surface-popup-input: var(--primitive-color-neutral-gray-80);
-	--semantic-color-surface-popup-input-success: var(--primitive-color-neutral-gray-90);
+	--semantic-color-surface-popup-input-field: var(--primitive-color-neutral-gray-80);
+	--semantic-color-surface-popup-input-field-success: var(--primitive-color-neutral-gray-90);
 	--semantic-color-surface-popup-default-group: var(--primitive-color-neutral-gray-50);
 	--semantic-color-surface-popup-default-track: var(--primitive-color-cool-gray-50);
 	--semantic-color-surface-popup-scroll-handle: var(--primitive-color-cool-gray-60);
 	--semantic-color-surface-popup-toast: var(--primitive-color-neutral-gray-90);
 
 	/* onSurface */
-	--semantic-color-on-surface-black: var(--primitive-color-black);
-	--semantic-color-on-surface-white: var(--primitive-color-white);
-	--semantic-color-on-surface-highlight-yellow: var(--primitive-color-yellow-80);
-	--semantic-color-on-surface-highlight-green: var(--primitive-color-mint-green-50);
 	--semantic-color-on-surface-main: var(--primitive-color-white);
 	--semantic-color-on-surface-main-focused: var(--primitive-color-neutral-gray-10);
 	--semantic-color-on-surface-main-selected: var(--primitive-color-white);
 	--semantic-color-on-surface-sub: var(--primitive-color-neutral-gray-70);
 	--semantic-color-on-surface-sub-focused: var(--primitive-color-neutral-gray-40);
 	--semantic-color-on-surface-sub-selected: var(--primitive-color-neutral-gray-50);
-	--semantic-color-on-surface-input: var(--primitive-color-white);
 	--semantic-color-on-surface-accent: var(--primitive-color-active-red-55);
+	--semantic-color-on-surface-highlight-yellow: var(--primitive-color-yellow-80);
+	--semantic-color-on-surface-highlight-green: var(--primitive-color-mint-green-50);
 	--semantic-color-on-surface-rec: var(--primitive-color-active-red-55);
+	--semantic-color-on-surface-white: var(--primitive-color-white);
+	--semantic-color-on-surface-black: var(--primitive-color-black);
+	--semantic-color-on-surface-input-field: var(--primitive-color-white);
 
 	--semantic-color-on-surface-overlay-main: var(--primitive-color-white);
 	--semantic-color-on-surface-overlay-sub: var(--primitive-color-neutral-gray-70);
 
 	--semantic-color-on-surface-popup-default: var(--primitive-color-neutral-gray-10);
-	--semantic-color-on-surface-popup-input: var(--primitive-color-neutral-gray-10);
+	--semantic-color-on-surface-popup-input-field: var(--primitive-color-neutral-gray-10);
 
 	/* scrim */
 	--semantic-color-scrim-default: var(--primitive-color-black);
@@ -95,7 +95,7 @@ Semantic Color Tokens
 	/* stroke */
 	--semantic-color-stroke-black: var(--primitive-color-black);
 	--semantic-color-stroke-white: var(--primitive-color-white);
-	--semantic-color-stroke-default: var(--primitive-color-cool-gray-60);
+	--semantic-color-stroke-default: var(--primitive-color-neutral-gray-35);
 	--semantic-color-stroke-default-focused: var(--primitive-color-white);
 	--semantic-color-stroke-default-selected: var(--primitive-color-cool-gray-40);
 	--semantic-color-stroke-default-disabled-focused: var(--primitive-color-neutral-gray-70);
