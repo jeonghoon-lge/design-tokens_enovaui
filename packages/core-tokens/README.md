@@ -29,7 +29,6 @@ To incorporate these design tokens into your project, follow these simple steps:
 1. Import the desired token values from this repository.
 2. Apply the imported tokens to your components and styles.
 
-Feel free to explore the different token categories and values available in this repository. If you have any questions or suggestions, we encourage you to open an issue or submit a pull request.
 
 ## Copyright and License Information
 
