@@ -1,13 +1,26 @@
-# @enovaui/design-tokens
-A centralized repository of design tokens for LGE.
+# @enovaui/core-tokens
 
 ## Overview
 
-This repository contains design tokens that define visual attributes for LGE applications. Design tokens help maintain consistency and enable theming across the ecosystem.
+This package provides the foundational design tokens used across the `enovaui` ecosystem.
 
-### What are Design Tokens?
+### What are Primitive Tokens?
 
-Design tokens are essential building blocks that define the visual attributes of a project. They include colors, typography, spacing, and more. By using design tokens, you can ensure consistency and maintainability across your UI.
+Primitive tokens are the raw values that defines visual attributes such as colors, typography, spacing, and more. They serve as the foundational building blocks of a design system and can be referenced by other tokens to ensure consistency and scalability.
+
+## Installation
+
+To install the package, use your preferred package manager:
+
+```bash
+npm install @enovaui/core-tokens
+```
+
+or
+
+```bash
+yarn add @enovaui/core-tokens
+```
 
 ### How to Use
 
@@ -16,7 +29,6 @@ To incorporate these design tokens into your project, follow these simple steps:
 1. Import the desired token values from this repository.
 2. Apply the imported tokens to your components and styles.
 
-Feel free to explore the different token categories and values available in this repository. If you have any questions or suggestions, we encourage you to open an issue or submit a pull request.
 
 ## Copyright and License Information
 

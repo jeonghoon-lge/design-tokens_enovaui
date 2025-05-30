@@ -1,13 +1,27 @@
-# @enovaui/design-tokens
-A centralized repository of design tokens for LGE.
+# @enovaui/webos-tokens
+A design tokens for webOS.
 
 ## Overview
 
-This repository contains design tokens that define visual attributes for LGE applications. Design tokens help maintain consistency and enable theming across the ecosystem.
+This package contains design tokens that define visual attributes for webOS applications. Design tokens help maintain consistency and enable theming across the ecosystem.
 
-### What are Design Tokens?
+### What are Semantic Tokens?
 
-Design tokens are essential building blocks that define the visual attributes of a project. They include colors, typography, spacing, and more. By using design tokens, you can ensure consistency and maintainability across your UI.
+Semantic tokens are design tokens that define the intended meaning or purpose of a design element, rather than its raw value. By abstracting the design intent, semantic tokens enable consistent styling across different components.
+
+## Installation
+
+To install the package, use your preferred package manager:
+
+```bash
+npm install @enovaui/webos-tokens
+```
+
+or
+
+```bash
+yarn add @enovaui/webos-tokens
+```
 
 ### How to Use
 
@@ -16,7 +30,6 @@ To incorporate these design tokens into your project, follow these simple steps:
 1. Import the desired token values from this repository.
 2. Apply the imported tokens to your components and styles.
 
-Feel free to explore the different token categories and values available in this repository. If you have any questions or suggestions, we encourage you to open an issue or submit a pull request.
 
 ## Copyright and License Information
 
