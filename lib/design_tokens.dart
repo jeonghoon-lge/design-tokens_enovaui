@@ -3,21 +3,7 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-library design_tokens;
-
-class TokenPaths {
-  // core token file paths
-  static const String corePalette = 'packages/core-tokens/json/color-palette.json';
-
-  // webOS token file paths
-  static const String webosBrand =
-      'packages/webos-tokens/json/color-brand.json';
-  static const String webosAlias = 'packages/webos-tokens/json/alias.json';
-  static const String webosBorderRadius =
-      'packages/webos-tokens/json/border-radius.json';
-  static const String webosFontSize =
-      'packages/webos-tokens/json/font-size.json';
-  static const String webosFontWeight =
-      'packages/webos-tokens/json/font-weight.json';
-  static const String webosSpacing = 'packages/webos-tokens/json/spacing.json';
-}
+export 'src/color_tokens/color_tokens.dart';
+export 'src/font_tokens/font_tokens.dart';
+export 'src/radius_tokens/radius_tokens.dart';
+export 'src/space_tokens/space_tokens.dart';

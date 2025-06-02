@@ -6,6 +6,7 @@ npm-debug.log*
 # Editor
 .idea
 .vscode
+.dart_tool/
 
 # Dependency directory
 node_modules
@@ -20,3 +21,9 @@ bundle.js
 
 # Mac
 .DS_Store
+
+# Scripts
+scripts/
+
+# flutter settings
+pubspec.lock
