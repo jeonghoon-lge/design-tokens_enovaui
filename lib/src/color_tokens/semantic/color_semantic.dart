@@ -29,7 +29,10 @@ abstract class ColorSemantic {
 }
 
 class DarkColorSemantic extends ColorSemantic {
-  const DarkColorSemantic();
+  const DarkColorSemantic._();
+
+  static DarkColorSemantic? _instance;
+  static DarkColorSemantic get instance => _instance ??= DarkColorSemantic._();
 
   @override
   Background get background => const BackgroundDark();
@@ -51,7 +54,11 @@ class DarkColorSemantic extends ColorSemantic {
 }
 
 class LightColorSemantic extends ColorSemantic {
-  const LightColorSemantic();
+  const LightColorSemantic._();
+
+  static LightColorSemantic? _instance;
+  static LightColorSemantic get instance =>
+      _instance ??= LightColorSemantic._();
 
   @override
   Background get background => const BackgroundLight();

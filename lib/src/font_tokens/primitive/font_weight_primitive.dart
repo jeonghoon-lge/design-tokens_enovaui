@@ -17,7 +17,7 @@ class FontWeightPrimitive {
   late final FontWeight light = FontWeight.w300;
   late final FontWeight regular = FontWeight.w400;
   late final FontWeight medium = FontWeight.w500;
-  late final FontWeight semibold = FontWeight.w600;
+  late final FontWeight semiBold = FontWeight.w600;
   late final FontWeight bold = FontWeight.w700;
   late final FontWeight extrabold = FontWeight.w800;
   late final FontWeight black = FontWeight.w900;
