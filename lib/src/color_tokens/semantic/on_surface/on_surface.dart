@@ -15,7 +15,7 @@ abstract class OnSurface {
   Overlay get overlay;
   Popup get popup;
 
-  Color get rec;
+  Color get defaultRec;
   Color get main;
   Color get mainFocused;
   Color get mainSelected;
@@ -40,7 +40,7 @@ class OnSurfaceDark extends OnSurface {
   Popup get popup => const PopupDark();
 
   @override
-  Color get rec => ColorPrimitive.instance.activeRed55;
+  Color get defaultRec => ColorPrimitive.instance.activeRed55;
 
   @override
   Color get main => ColorPrimitive.instance.white;
@@ -89,7 +89,7 @@ class OnSurfaceLight extends OnSurface {
   Popup get popup => const PopupLight();
 
   @override
-  Color get rec => ColorPrimitive.instance.activeRed55;
+  Color get defaultRec => ColorPrimitive.instance.activeRed55;
 
   @override
   Color get main => ColorPrimitive.instance.white;
@@ -104,7 +104,7 @@ class OnSurfaceLight extends OnSurface {
   Color get sub => ColorPrimitive.instance.neutralGray70;
 
   @override
-  Color get subFocused => ColorPrimitive.instance.neutralGray10;
+  Color get subFocused => ColorPrimitive.instance.coolGray30;
 
   @override
   Color get subSelected => ColorPrimitive.instance.white;

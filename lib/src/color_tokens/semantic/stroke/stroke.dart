@@ -15,26 +15,26 @@ abstract class Stroke {
   Overlay get overlay;
   Popup get popup;
 
-  /// Default stroke color
-  Color get defaultColor;
-
-  /// Default stroke color when focused
-  Color get defaultFocused;
-
-  /// Default stroke color when selected
-  Color get defaultSelected;
-
-  /// Default stroke color when disabled
-  Color get defaultDisabledFocused;
-
   /// Main stroke color
   Color get main;
+
+  /// Main stroke color when disabled and focused
+  Color get mainDisabledFocused;
+
+  /// Main stroke color when focused
+  Color get mainFocused;
+
+  /// Main stroke color when selected
+  Color get mainSelected;
 
   /// Sub stroke color
   Color get sub;
 
   /// Accent stroke color
   Color get accent;
+
+  /// Highlight stroke color
+  Color get highlight;
 
   /// Button outline stroke color
   Color get buttonOutline;
@@ -62,25 +62,25 @@ class StrokeDark extends Stroke {
   Popup get popup => const PopupDark();
 
   @override
-  Color get defaultColor => ColorPrimitive.instance.neutralGray35;
+  Color get main => ColorPrimitive.instance.neutralGray35;
 
   @override
-  Color get defaultDisabledFocused => ColorPrimitive.instance.neutralGray70;
+  Color get mainDisabledFocused => ColorPrimitive.instance.neutralGray70;
 
   @override
-  Color get defaultFocused => ColorPrimitive.instance.white;
+  Color get mainFocused => ColorPrimitive.instance.white;
 
   @override
-  Color get defaultSelected => ColorPrimitive.instance.coolGray40;
-
-  @override
-  Color get main => ColorPrimitive.instance.white;
+  Color get mainSelected => ColorPrimitive.instance.coolGray40;
 
   @override
   Color get sub => ColorPrimitive.instance.neutralGray70;
 
   @override
   Color get accent => ColorPrimitive.instance.activeRed55;
+
+  @override
+  Color get highlight => ColorPrimitive.instance.white;
 
   @override
   Color get buttonOutline => ColorPrimitive.instance.white;
@@ -108,25 +108,25 @@ class StrokeLight extends Stroke {
   Popup get popup => const PopupLight();
 
   @override
-  Color get defaultColor => ColorPrimitive.instance.neutralGray35;
+  Color get main => ColorPrimitive.instance.neutralGray50;
 
   @override
-  Color get defaultDisabledFocused => ColorPrimitive.instance.neutralGray70;
+  Color get mainDisabledFocused => ColorPrimitive.instance.coolGray80;
 
   @override
-  Color get defaultFocused => ColorPrimitive.instance.white;
+  Color get mainFocused => ColorPrimitive.instance.white;
 
   @override
-  Color get defaultSelected => ColorPrimitive.instance.coolGray40;
-
-  @override
-  Color get main => ColorPrimitive.instance.white;
+  Color get mainSelected => ColorPrimitive.instance.coolGray40;
 
   @override
   Color get sub => ColorPrimitive.instance.neutralGray35;
 
   @override
   Color get accent => ColorPrimitive.instance.activeRed55;
+
+  @override
+  Color get highlight => ColorPrimitive.instance.neutralGray10;
 
   @override
   Color get buttonOutline => ColorPrimitive.instance.white;

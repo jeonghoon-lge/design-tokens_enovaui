@@ -23,5 +23,5 @@ class FullLight extends Full {
   const FullLight();
 
   @override
-  Color get defaultColor => ColorPrimitive.instance.white;
+  Color get defaultColor => ColorPrimitive.instance.neutralGray95;
 }

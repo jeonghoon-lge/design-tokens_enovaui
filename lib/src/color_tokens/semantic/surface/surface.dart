@@ -34,9 +34,9 @@ abstract class Surface {
   Color get toggleHandle;
   Color get white;
   Color get black;
-  Color get handle;
-  Color get indicator;
-  Color get placeholder;
+  Color get defaultHandle;
+  Color get defaultIndicator;
+  Color get defaultPlaceholder;
 }
 
 class SurfaceDark extends Surface {
@@ -106,13 +106,13 @@ class SurfaceDark extends Surface {
   Color get black => ColorPrimitive.instance.black;
 
   @override
-  Color get handle => ColorPrimitive.instance.activeRed70;
+  Color get defaultHandle => ColorPrimitive.instance.activeRed70;
 
   @override
-  Color get indicator => ColorPrimitive.instance.white;
+  Color get defaultIndicator => ColorPrimitive.instance.white;
 
   @override
-  Color get placeholder => ColorPrimitive.instance.coolGray10;
+  Color get defaultPlaceholder => ColorPrimitive.instance.coolGray10;
 }
 
 class SurfaceLight extends Surface {
@@ -134,7 +134,7 @@ class SurfaceLight extends Surface {
   Color get defaultSelected => ColorPrimitive.instance.coolGray40;
 
   @override
-  Color get defaultDisabledFocused => ColorPrimitive.instance.neutralGray80;
+  Color get defaultDisabledFocused => ColorPrimitive.instance.coolGray80;
 
   @override
   Color get defaultGroup => ColorPrimitive.instance.neutralGray50;
@@ -182,11 +182,11 @@ class SurfaceLight extends Surface {
   Color get black => ColorPrimitive.instance.black;
 
   @override
-  Color get handle => ColorPrimitive.instance.activeRed70;
+  Color get defaultHandle => ColorPrimitive.instance.activeRed70;
 
   @override
-  Color get indicator => ColorPrimitive.instance.white;
+  Color get defaultIndicator => ColorPrimitive.instance.neutralGray10;
 
   @override
-  Color get placeholder => ColorPrimitive.instance.coolGray10;
+  Color get defaultPlaceholder => ColorPrimitive.instance.coolGray15;
 }

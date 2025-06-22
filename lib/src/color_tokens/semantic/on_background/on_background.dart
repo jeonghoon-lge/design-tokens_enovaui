@@ -21,7 +21,7 @@ abstract class OnBackground {
   Color get heading;
   Color get white;
   Color get black;
-  Color get error;
+  Color get defaultError;
 }
 
 class OnBackgroundDark extends OnBackground {
@@ -58,7 +58,7 @@ class OnBackgroundDark extends OnBackground {
   Color get white => ColorPrimitive.instance.white;
 
   @override
-  Color get error => ColorPrimitive.instance.deepOrange50;
+  Color get defaultError => ColorPrimitive.instance.deepOrange50;
 }
 
 class OnBackgroundLight extends OnBackground {
@@ -77,7 +77,7 @@ class OnBackgroundLight extends OnBackground {
   Color get black => ColorPrimitive.instance.black;
 
   @override
-  Color get heading => ColorPrimitive.instance.neutralGray60;
+  Color get heading => ColorPrimitive.instance.neutralGray50;
 
   @override
   Color get highlightGreen => ColorPrimitive.instance.mintGreen50;
@@ -95,5 +95,5 @@ class OnBackgroundLight extends OnBackground {
   Color get white => ColorPrimitive.instance.white;
 
   @override
-  Color get error => ColorPrimitive.instance.deepOrange50;
+  Color get defaultError => ColorPrimitive.instance.deepOrange50;
 }

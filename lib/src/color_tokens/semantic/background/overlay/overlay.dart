@@ -23,5 +23,5 @@ class OverlayLight extends Overlay {
   const OverlayLight();
 
   @override
-  Color get defaultColor => ColorPrimitive.instance.coolGray15;
+  Color get defaultColor => ColorPrimitive.instance.coolGray90;
 }
