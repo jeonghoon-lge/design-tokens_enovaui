@@ -5,7 +5,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../primitive/radius_primitive.dart';
+import '../core_tokens/radius_primitive.dart';
 
 class RadiusSemantic {
   const RadiusSemantic();

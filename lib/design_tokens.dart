@@ -3,7 +3,9 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-export 'src/color_tokens/color_tokens.dart';
-export 'src/font_tokens/font_tokens.dart';
-export 'src/radius_tokens/radius_tokens.dart';
-export 'src/space_tokens/space_tokens.dart';
+export 'src/core_tokens/color_primitive.dart';
+export 'src/core_tokens/radius_primitive.dart';
+export 'src/core_tokens/spacing_primitive.dart';
+export 'src/core_tokens/typography_primitive.dart';
+export 'src/webos_tokens/color_semantic.dart';
+export 'src/webos_tokens/radius_semantic.dart';
