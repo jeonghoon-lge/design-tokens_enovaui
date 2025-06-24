@@ -5,7 +5,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../primitive/color_primitive.dart';
+import '../../../../core_tokens/color_primitive.dart';
 
 abstract class Overlay {
   const Overlay();

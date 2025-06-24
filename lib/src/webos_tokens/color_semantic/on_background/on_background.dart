@@ -5,7 +5,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../primitive/color_primitive.dart';
+import '../../../core_tokens/color_primitive.dart';
 import 'popup/popup.dart';
 
 abstract class OnBackground {
