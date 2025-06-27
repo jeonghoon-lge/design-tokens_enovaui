@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import "package:flutter/material.dart" show Color;
+import "package:flutter/material.dart";
 import "../../../../../core_tokens/color_primitive.dart";
 import "../../../../base/color/on_surface/overlay/overlay_base.dart";
 

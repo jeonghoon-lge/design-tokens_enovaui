@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import 'package:flutter/material.dart' show Color;
+import 'package:flutter/material.dart';
 
 abstract class FullBase {
   const FullBase();

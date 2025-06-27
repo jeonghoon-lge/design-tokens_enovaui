@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import 'package:flutter/material.dart' show Color;
+import 'package:flutter/material.dart';
 
 import 'overlay/overlay_base.dart';
 import 'popup/popup_base.dart';
