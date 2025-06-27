@@ -5,7 +5,7 @@
 
 import "package:flutter/material.dart" show Color;
 import "../../../../../core_tokens/color_primitive.dart";
-import "../../../../base/on_surface/popup/popup_base.dart";
+import "../../../../base/color/on_surface/popup/popup_base.dart";
 
 class Popup extends PopupBase {
   const Popup();

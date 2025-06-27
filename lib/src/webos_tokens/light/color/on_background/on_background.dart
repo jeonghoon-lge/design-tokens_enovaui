@@ -6,7 +6,7 @@
 import "package:flutter/material.dart";
 import "../../../../core_tokens/color_primitive.dart";
 import "popup/popup.dart";
-import "../../../base/on_background/on_background_base.dart";
+import "../../../base/color/on_background/on_background_base.dart";
 
 class OnBackground extends OnBackgroundBase {
   const OnBackground();

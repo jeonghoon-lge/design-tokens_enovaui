@@ -7,7 +7,7 @@ import "package:flutter/material.dart" show Color;
 import "../../../../core_tokens/color_primitive.dart";
 import "overlay/overlay.dart";
 import "popup/popup.dart";
-import "../../../base/on_surface/on_surface_base.dart";
+import "../../../base/color/on_surface/on_surface_base.dart";
 
 class OnSurface extends OnSurfaceBase {
   const OnSurface();

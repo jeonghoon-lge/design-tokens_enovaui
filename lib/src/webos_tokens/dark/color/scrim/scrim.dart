@@ -5,7 +5,7 @@
 
 import "package:flutter/material.dart" show Color;
 import "../../../../core_tokens/color_primitive.dart";
-import "../../../base/scrim/scrim_base.dart";
+import "../../../base/color/scrim/scrim_base.dart";
 
 class Scrim extends ScrimBase {
   const Scrim();

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import 'base/background/background_base.dart';
-import 'base/on_background/on_background_base.dart';
-import 'base/on_surface/on_surface_base.dart';
-import 'base/scrim/scrim_base.dart';
-import 'base/stroke/stroke_base.dart';
-import 'base/surface/surface_base.dart';
+import 'base/color/background/background_base.dart';
+import 'base/color/on_background/on_background_base.dart';
+import 'base/color/on_surface/on_surface_base.dart';
+import 'base/color/scrim/scrim_base.dart';
+import 'base/color/stroke/stroke_base.dart';
+import 'base/color/surface/surface_base.dart';
 
 abstract class ColorSemantic {
   const ColorSemantic();

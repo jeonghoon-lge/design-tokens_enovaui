@@ -8,7 +8,7 @@ import 'package:flutter/material.dart' show Color;
 import '../../../../core_tokens/color_primitive.dart';
 import 'overlay/overlay.dart';
 import 'popup/popup.dart';
-import '../../../base/stroke/stroke_base.dart';
+import '../../../base/color/stroke/stroke_base.dart';
 
 class Stroke extends StrokeBase {
   const Stroke();

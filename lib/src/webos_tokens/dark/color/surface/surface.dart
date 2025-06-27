@@ -8,7 +8,7 @@ import 'package:flutter/material.dart' show Color;
 import '../../../../core_tokens/color_primitive.dart';
 import 'overlay/overlay.dart';
 import 'popup/popup.dart';
-import '../../../base/surface/surface_base.dart';
+import '../../../base/color/surface/surface_base.dart';
 
 class Surface extends SurfaceBase {
   const Surface();

@@ -6,7 +6,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../core_tokens/color_primitive.dart';
-import '../../../../base/background/overlay/overlay_base.dart';
+import '../../../../base/color/background/overlay/overlay_base.dart';
 
 class Overlay extends OverlayBase {
   const Overlay();
