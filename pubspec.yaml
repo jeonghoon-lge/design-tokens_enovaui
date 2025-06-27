@@ -1,19 +1,15 @@
 name: design_tokens
 description: Package containing design token files
-version: 0.0.1
+version: 0.6.0
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=3.0.5 <4.0.0"
+  flutter: ">=3.10.0"
 
-# This part is important - specifies this is a Flutter package
-flutter:
-  # Include token files in the assets section
-  assets:
-    - packages/core-tokens/json/color-palette.json
-    - packages/webos-tokens/json/color-brand.json
-    - packages/webos-tokens/json/alias.json
-    - packages/webos-tokens/json/border-radius.json
-    - packages/webos-tokens/json/font-size.json
-    - packages/webos-tokens/json/font-weight.json
-    - packages/webos-tokens/json/spacing.json
-    
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  args: ^2.4.2
+  flutter_lints: ^4.0.0
