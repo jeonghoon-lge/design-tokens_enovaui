@@ -9,6 +9,5 @@ abstract class PopupBase {
   const PopupBase();
 
   Color get defaultColor;
-
   Color get inputField;
 }

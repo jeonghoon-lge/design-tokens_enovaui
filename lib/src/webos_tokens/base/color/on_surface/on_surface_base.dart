@@ -13,7 +13,6 @@ abstract class OnSurfaceBase {
 
   OverlayBase get overlay;
   PopupBase get popup;
-
   Color get main;
   Color get mainFocused;
   Color get mainSelected;

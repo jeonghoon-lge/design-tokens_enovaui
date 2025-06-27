@@ -3,11 +3,12 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import "package:flutter/material.dart" show Color;
-import "../../../../core_tokens/color_primitive.dart";
-import "overlay/overlay.dart";
-import "popup/popup.dart";
-import "../../../base/color/on_surface/on_surface_base.dart";
+import 'package:flutter/material.dart' show Color;
+
+import '../../../../core_tokens/color_primitive.dart';
+import '../../../base/color/on_surface/on_surface_base.dart';
+import 'overlay/overlay.dart';
+import 'popup/popup.dart';
 
 class OnSurface extends OnSurfaceBase {
   const OnSurface();

@@ -3,18 +3,19 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import "../../color_semantic.dart";
-import "background/background.dart";
-import "on_background/on_background.dart";
-import "on_surface/on_surface.dart";
-import "scrim/scrim.dart";
-import "stroke/stroke.dart";
-import "surface/surface.dart";
+import '../../color_semantic.dart';
+import 'background/background.dart';
+import 'on_background/on_background.dart';
+import 'on_surface/on_surface.dart';
+import 'scrim/scrim.dart';
+import 'stroke/stroke.dart';
+import 'surface/surface.dart';
 
 class ColorSemanticDark extends ColorSemantic {
   const ColorSemanticDark._();
 
   static ColorSemanticDark? _instance;
+
   static ColorSemanticDark get instance =>
       _instance ??= const ColorSemanticDark._();
 

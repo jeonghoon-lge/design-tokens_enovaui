@@ -14,10 +14,8 @@ class Background extends BackgroundBase {
 
   @override
   FullBase get full => const Full();
-
   @override
   Overlay get overlay => const Overlay();
-
   @override
   Popup get popup => const Popup();
 }

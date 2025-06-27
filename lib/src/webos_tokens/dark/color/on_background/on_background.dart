@@ -3,10 +3,11 @@
  * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
  */
 
-import "package:flutter/material.dart";
-import "../../../../core_tokens/color_primitive.dart";
-import "popup/popup.dart";
-import "../../../base/color/on_background/on_background_base.dart";
+import 'package:flutter/material.dart';
+
+import '../../../../core_tokens/color_primitive.dart';
+import '../../../base/color/on_background/on_background_base.dart';
+import 'popup/popup.dart';
 
 class OnBackground extends OnBackgroundBase {
   const OnBackground();

@@ -7,5 +7,6 @@ import 'package:flutter/material.dart';
 
 abstract class FullBase {
   const FullBase();
+
   Color get defaultColor;
 }

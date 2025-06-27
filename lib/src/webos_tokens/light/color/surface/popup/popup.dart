@@ -13,28 +13,20 @@ class Popup extends PopupBase {
 
   @override
   Color get defaultColor => ColorPrimitive.instance.coolGray55;
-
   @override
   Color get defaultSelected => ColorPrimitive.instance.coolGray40;
-
   @override
   Color get defaultDisabledFocused => ColorPrimitive.instance.coolGray80;
-
   @override
   Color get defaultGroup => ColorPrimitive.instance.neutralGray50;
-
   @override
   Color get defaultTrack => ColorPrimitive.instance.coolGray50;
-
   @override
   Color get inputField => ColorPrimitive.instance.neutralGray80;
-
   @override
   Color get inputFieldSuccess => ColorPrimitive.instance.neutralGray90;
-
   @override
   Color get scrollHandle => ColorPrimitive.instance.coolGray60;
-
   @override
   Color get toast => ColorPrimitive.instance.neutralGray90;
 }

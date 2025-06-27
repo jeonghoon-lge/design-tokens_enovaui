@@ -7,5 +7,6 @@ import 'package:flutter/material.dart';
 
 abstract class PopupBase {
   const PopupBase();
+
   Color get defaultColor;
 }

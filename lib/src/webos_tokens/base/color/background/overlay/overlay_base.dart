@@ -7,5 +7,6 @@ import 'package:flutter/material.dart';
 
 abstract class OverlayBase {
   const OverlayBase();
+
   Color get defaultColor;
 }
