@@ -1,10 +1,10 @@
-# EnovaUI Design Tokens for Flutter
+# # @enovaui/design-tokens for Flutter
 
-Design token library for the EnovaUI design system for Flutter applications.
+A centralized repository of design tokens for LG Electronics' UI Kit, especially for Flutter applications.
 
 ## Overview
 
-This library provides design tokens for implementing consistent design in Flutter projects. It offers a design system optimized for webOS applications through primitive tokens and semantic tokens.
+This repository contains design tokens that define visual attributes for LG Flutter applications, specifically for the LG UI Kit design system. Design tokens help maintain consistency and enable theming across the ecosystem.
 
 ## Usage
 
@@ -78,9 +78,9 @@ Primitive tokens are the basic building blocks of the design system:
 - **`SpacingPrimitive`**: Basic margin and spacing values
 - **`TypographyPrimitive`**: Basic typography styles
 
-### Semantic Tokens (WebOS Tokens)
+### Semantic Tokens (e.g. webOS Tokens)
 
-Semantic tokens are meaningfully named tokens based on their purpose:
+Semantic tokens are meaningfully named tokens based on their purpose.
 
 - **`ColorSemanticDark`**: Dark theme colors optimized for webOS TV displays
 
@@ -112,7 +112,7 @@ ColorSemantic
 
 ```
 lib/
-├── design_tokens.dart          # Main export file
+├── design_tokens.dart         # Main export file
 └── src/
     ├── core_tokens/           # Primitive tokens
     │   ├── color_primitive.dart
