@@ -1,4 +1,4 @@
-# # @enovaui/design-tokens for Flutter
+## @enovaui/design-tokens for Flutter
 
 A centralized repository of design tokens for LG Electronics' UI Kit, especially for Flutter applications.
 
