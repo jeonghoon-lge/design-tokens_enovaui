@@ -121,7 +121,7 @@ lib/
     │   ├── radius_primitive.dart
     │   ├── spacing_primitive.dart
     │   └── typography_primitive.dart
-    └── webos_tokens/          # Semantic tokens
+    └── webos_tokens/          # Semantic tokens for webOS
         ├── color_semantic.dart
         ├── radius_semantic.dart
         ├── dark/              # Dark theme
