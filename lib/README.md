@@ -6,60 +6,6 @@ A centralized repository of design tokens for LG Electronics' UI Kit, especially
 
 This repository contains design tokens that define visual attributes for LG Flutter applications, specifically for the LG UI Kit design system. Design tokens help maintain consistency and enable theming across the ecosystem.
 
-## Usage
-
-### 1. Add dependency to pubspec.yaml
-
-```yaml
-dependencies:
-  design_tokens:
-    git:
-      url: git@github.com:enovaui/design-tokens.git
-      ref: v0.7.0
-```
-
-### 2. Import library
-
-```dart
-import 'package:design_tokens/design_tokens.dart';
-```
-
-### 3. Token usage examples
-
-#### Using primitive tokens
-
-```dart
-// Using color primitive tokens
-Container(
-  color: ColorPrimitive.instance.neutralGray20,
-  child: Text(
-    'Hello World',
-    style: TextStyle(color: ColorPrimitive.instance.white),
-  ),
-)
-
-// Using spacing primitive tokens
-Padding(
-  padding: EdgeInsets.all(SpacingPrimitive.instance.spacing16),
-  child: ...,
-)
-```
-
-#### Using semantic tokens
-
-```dart
-// Using dark theme semantic tokens
-final darkColors = ColorSemanticDark();
-
-Container(
-  color: darkColors.background.main,
-  child: Text(
-    'Hello World',
-    style: TextStyle(color: darkColors.onBackground.main),
-  ),
-)
-```
-
 ## Token Categories
 
 ### Primitive Tokens (Core Tokens)
@@ -127,6 +73,60 @@ lib/
         ├── dark/              # Dark theme
         ├── light/             # Light theme
         └── base/              # Base token definitions
+```
+
+## Usage
+
+### 1. Add dependency to pubspec.yaml
+
+```yaml
+dependencies:
+  design_tokens:
+    git:
+      url: git@github.com:enovaui/design-tokens.git
+      ref: v0.7.0
+```
+
+### 2. Import library
+
+```dart
+import 'package:design_tokens/design_tokens.dart';
+```
+
+### 3. Token usage examples
+
+#### Using primitive tokens
+
+```dart
+// Using color primitive tokens
+Container(
+  color: ColorPrimitive.instance.neutralGray20,
+  child: Text(
+    'Hello World',
+    style: TextStyle(color: ColorPrimitive.instance.white),
+  ),
+)
+
+// Using spacing primitive tokens
+Padding(
+  padding: EdgeInsets.all(SpacingPrimitive.instance.spacing16),
+  child: ...,
+)
+```
+
+#### Using semantic tokens
+
+```dart
+// Using dark theme semantic tokens
+final darkColors = ColorSemanticDark();
+
+Container(
+  color: darkColors.background.main,
+  child: Text(
+    'Hello World',
+    style: TextStyle(color: darkColors.onBackground.main),
+  ),
+)
 ```
 
 ## Best Practices
