@@ -56,25 +56,6 @@ ColorSemantic
 └── scrim (scrim/overlay colors)
 ```
 
-## File Structure
-
-```
-lib/
-├── design_tokens.dart         # Main export file
-└── src/
-    ├── core_tokens/           # Primitive tokens
-    │   ├── color_primitive.dart
-    │   ├── radius_primitive.dart
-    │   ├── spacing_primitive.dart
-    │   └── typography_primitive.dart
-    └── webos_tokens/          # Semantic tokens for webOS
-        ├── color_semantic.dart
-        ├── radius_semantic.dart
-        ├── dark/              # Dark theme
-        ├── light/             # Light theme
-        └── base/              # Base token definitions
-```
-
 ## Usage
 
 ### 1. Add dependency to pubspec.yaml
