@@ -81,6 +81,8 @@ Primitive tokens are the basic building blocks of the design system:
 ### Semantic Tokens (e.g. webOS Tokens)
 
 Semantic tokens are meaningfully named tokens based on their purpose.
+As of now, there are only `webos_tokens` but it will be added later for other platforms.
+Below describes `webos_tokens` case:
 
 - **`ColorSemanticDark`**: Dark theme colors optimized for webOS TV displays
 
