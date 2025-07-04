@@ -1,23 +1,13 @@
 /*
  * SPDX-FileCopyrightText: Copyright 2025 LG Electronics Inc.
- * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
+ * SPDX-License-Identifier: Apache-2.0
  */
 
-library design_tokens;
-
-class TokenPaths {
-  // core token file paths
-  static const String corePalette = 'packages/core-tokens/json/color-palette.json';
-
-  // webOS token file paths
-  static const String webosBrand =
-      'packages/webos-tokens/json/color-brand.json';
-  static const String webosAlias = 'packages/webos-tokens/json/alias.json';
-  static const String webosBorderRadius =
-      'packages/webos-tokens/json/border-radius.json';
-  static const String webosFontSize =
-      'packages/webos-tokens/json/font-size.json';
-  static const String webosFontWeight =
-      'packages/webos-tokens/json/font-weight.json';
-  static const String webosSpacing = 'packages/webos-tokens/json/spacing.json';
-}
+export 'src/core_tokens/color_primitive.dart';
+export 'src/core_tokens/radius_primitive.dart';
+export 'src/core_tokens/spacing_primitive.dart';
+export 'src/core_tokens/typography_primitive.dart';
+export 'src/webos_tokens/color_semantic.dart';
+export 'src/webos_tokens/dark/color/color_semantic_dark.dart';
+export 'src/webos_tokens/light/color/color_semantic_light.dart';
+export 'src/webos_tokens/radius_semantic.dart';
